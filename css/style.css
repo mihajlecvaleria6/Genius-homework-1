@@ -1,0 +1,207 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/Roboto-Medium.woff2') format('woff2');
+}
+
+:root {
+  --color-brand: #ffffff;
+  --color-primary-light: #2b7fff;
+  --color-primary-dark: #011c44;
+  --color-secondary-light: #737373;
+}
+
+/* Base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--color-primary-dark);
+  font-family: 'roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  max-width: 1264px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 48px;
+}
+
+/* list-header */
+.list-header {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+
+.list-header:hover {
+  color: var(--color-primary-light);
+  font-weight: 700;
+}
+
+/* Button */
+.button {
+  margin-bottom: 16px;
+  color: var(--color-brand);
+  padding: 16px 32px;
+  font-weight: 600;
+  background-color: var(--color-primary-light);
+  border: 2px solid var(--color-primary-light);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-primary-dark);
+  background-color: transparent;
+}
+
+/* Header-section */
+.header-title {
+  margin-bottom: 40px;
+  color: var(--color-primary-light);
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 0.8;
+}
+
+.header-text {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* About us section */
+.about-section {
+  padding: 63.24px 0 88px 0;
+}
+
+.about-title {
+  margin-bottom: 40px;
+}
+
+.about-text {
+  font-size: 22px;
+  line-height: 1.8;
+}
+
+.about-text .accent {
+  font-weight: 600;
+}
+
+/* Why We section */
+.why-section {
+  padding: 88px 0 48px 0;
+}
+
+.why-title {
+  margin-bottom: 48px;
+}
+
+.why-text {
+  line-height: 1.3;
+}
+
+/* procedures section */
+.procedures-title {
+  margin-bottom: 48px;
+}
+
+.procedure-title {
+  color: var(--color-brand);
+  font-size: 22px;
+}
+
+/* contact */
+.cotact-title {
+  margin-bottom: 48px;
+}
+
+/* section-title */
+.section-title {
+  color: var(--color-primary-light);
+  font-size: 64px;
+  font-weight: 700;
+  font-family: 'Play', sans-serif;
+}
+
+.section-title .accent {
+  color: var(--color-primary-dark);
+}
+
+/* footer */
+.list-footer {
+  color: var(--color-brand);
+  text-decoration: none;
+}
+
+.list-footer:hover {
+  color: var(--color-primary-light);
+  font-weight: 700;
+}
+
+.address-link {
+  color: var(--color-brand);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.address-link:hover {
+  color: var(--color-primary-light);
+}
+
+.address-copyright {
+  color: var(--color-secondary-light);
+  font-size: 13px;
+}
